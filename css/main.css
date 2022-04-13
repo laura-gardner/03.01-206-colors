@@ -62,9 +62,14 @@ footer {
 
 /* Change the background colors below */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     header {
         background-color: #F0EFF4;
+    }
+    .col-3 {
+        width: 50%;
+        height: 320px;
+        float: left;
     }
     #column-1 {
         background-color: #9E829C;
@@ -74,6 +79,7 @@ footer {
     }
     #column-3 {
         background-color: #3A3E3B;
+        width: 100%;
     }
     footer {
         background-color: #F0EFF4;
@@ -86,6 +92,11 @@ footer {
 @media (min-width: 1200px) {
     header {
         background-color: #BEE7B8;
+    }
+    .col-3 {
+        width: 33.3%;
+        height: 320px;
+        float: left;
     }
     #column-1 {
         background-color: #AEBD93;
